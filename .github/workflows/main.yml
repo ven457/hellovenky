@@ -1,0 +1,9 @@
+name: load my page
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: execute hello.py
+      uses: 
+      
